@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>canal__c</fullName>
+    <description>Canal que o pedido pertence.</description>
+    <externalId>false</externalId>
+    <label>Canal</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Amazon</fullName>
+                <default>false</default>
+                <label>Amazon</label>
+            </value>
+            <value>
+                <fullName>B2W</fullName>
+                <default>false</default>
+                <label>B2W</label>
+            </value>
+            <value>
+                <fullName>Buscapé</fullName>
+                <default>false</default>
+                <label>Buscapé</label>
+            </value>
+            <value>
+                <fullName>Carrefour</fullName>
+                <default>false</default>
+                <label>Carrefour</label>
+            </value>
+            <value>
+                <fullName>Cnova</fullName>
+                <default>false</default>
+                <label>Cnova</label>
+            </value>
+            <value>
+                <fullName>Dafiti</fullName>
+                <default>false</default>
+                <label>Dafiti</label>
+            </value>
+            <value>
+                <fullName>Magazine Luíza</fullName>
+                <default>false</default>
+                <label>Magazine Luíza</label>
+            </value>
+            <value>
+                <fullName>Record TV</fullName>
+                <default>false</default>
+                <label>Record TV</label>
+            </value>
+            <value>
+                <fullName>Shopfácil</fullName>
+                <default>false</default>
+                <label>Shopfácil</label>
+            </value>
+            <value>
+                <fullName>Walmart</fullName>
+                <default>false</default>
+                <label>Walmart</label>
+            </value>
+            <value>
+                <fullName>Zoom</fullName>
+                <default>false</default>
+                <label>Zoom</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

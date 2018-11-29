@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>rastrear__c</fullName>
+    <description>Rastreamento do pedido.</description>
+    <externalId>false</externalId>
+    <formula>IF( rastreio__c != &#39;&#39;,
+ HYPERLINK(&#39;http://r.connectparts.com.br/?c=&#39; + rastreio__c, &#39;Rastrear&#39; , &#39;_blank&#39;) ,
+&#39;&#39;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Rastrear</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

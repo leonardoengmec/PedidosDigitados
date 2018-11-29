@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ouvidoria_Acompanhamento</fullName>
+    <columns>NAME</columns>
+    <columns>pedidoDigitado__c</columns>
+    <columns>dataPedido__c</columns>
+    <columns>status__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>pedidoDigitado__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>pedidoFinalizado__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>Ouvidoria - Acompanhamento</label>
+</ListView>
