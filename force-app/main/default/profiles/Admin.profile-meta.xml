@@ -34,6 +34,16 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>pedidoDigitado__c.enviadoNotaFiscal__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>pedidoDigitado__c.informadoRastreio__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>pedidoDigitado__c.pedidoDigitado__c</field>
         <readable>true</readable>
     </fieldPermissions>

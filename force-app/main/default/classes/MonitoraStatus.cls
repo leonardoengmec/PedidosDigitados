@@ -30,7 +30,7 @@ global with sharing class MonitoraStatus implements Schedulable, Database.Batcha
 
     global void execute(SchedulableContext SC) {
         Database.executeBatch(new MonitoraStatus(),10);
-        System.abortJob(SC.getTriggerId());
+        //System.abortJob(SC.getTriggerId());
     }
 
     public static String buscaPedido(String numeroPedido){

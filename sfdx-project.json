@@ -5,7 +5,7 @@
             "default": true,
             "package": "pedidosDigitados",
             "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT"
+            "versionNumber": "0.1.1.NEXT"
         }
     ],
     "namespace": "",
@@ -13,6 +13,8 @@
     "sourceApiVersion": "44.0",
     "packageAliases": {
         "pedidosDigitados": "0Ho1I000000fxSuSAI",
-        "pedidosDigitados@0.1.0-1": "04t1I000003JVRyQAO"
+        "pedidosDigitados@0.1.0-1": "04t1I000003JVRyQAO",
+        "pedidosDigitados@0.1.0-3": "04t1I000003JVSrQAO",
+        "pedidosDigitados@0.1.1-1": "04t1I000003JVSwQAO"
     }
 }
